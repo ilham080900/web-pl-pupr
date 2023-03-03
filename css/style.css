@@ -1,0 +1,69 @@
+.container-map {
+  position: relative;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+  height: 78%;
+}
+
+.extent {
+  border: solid 1px whitesmoke;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 5;
+  top: 65px;
+  left: 10px;
+  height: 22px;
+  width: 22px;
+  background-color: #ffffff;
+}
+
+.extent svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}
+
+.extent:hover {
+  border-color: #333;
+}
+
+.ol-search ul {
+  color: #333;
+  font-size: 0.85em;
+  max-width: 21em;
+}
+.ol-search ul i {
+  display: block;
+  color: #333;
+  font-size: 0.85em;
+}
+
+.jalan {
+  width: 10px;
+  height: 10px;
+}
+
+.pendataan:hover {
+  border-color: green;
+}
+
+.rekapitulasi-data:hover {
+  border-color: red;
+}
+
+.inputdata {
+  border: solid #40e0d0 1px;
+  color: white;
+}
+
+@media print {
+  .card{
+    display: none;
+  }
+}
